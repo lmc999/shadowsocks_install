@@ -66,4 +66,4 @@ VOLUME /etc/shadowsocks-libev
 
 ENV TZ=Asia/Shanghai
 
-CMD [ "ss-server", "-c", "/etc/shadowsocks-libev/config.json" ]
+CMD [ "ss-server", "-c", "/etc/shadowsocks-libev/config.json" "-u"]
